@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Appointment Info</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="icon" href="assets/favicon.ico">
+     <style>
+          #taskList{
+               color : black;
+               text-align: center;
+               font-size: x-large;
+               display: flex;
+               flex-direction: column;
+               gap: 4px;
+               justify-content: space-between;
+               margin : 5px;
+          }
+          #sptask{
+               display: flex;
+               justify-content: space-between;
+          }
+          #sptask span {
+               width: 400px;
+               background-color: rgb(2, 141, 141);
+               color : white;
+               border-radius: 5px;
+          }
+          .dltbtn{
+               background-color: 	#ff0505;
+               border-radius: 5px;
+               cursor: pointer;
+          }
+          .dltbtn:hover{
+               transition: .5s;
+          }
+     </style>
+</head>
+<body>
+     <nav>
+          <div class="nav-bar">
+              <ul>
+                  <li>
+                      <a href="index.html">Home</a>
+                  </li>
+                  <li>
+                      <a href="#">Appoint List</a>
+                  </li>
+                  <li>
+                      <a href="#">Departments</a>
+                          <div class="sub-menu-1">
+                              <ul>
+                                  <li>
+                                      <a href="#">Medicine</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">Pathology</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">Anatomy</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">Cardiology</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">Neurology</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">Surgery</a>
+                                  </li>
+                              </ul>
+                          </div>
+                  </li>
+                  <li>
+                      <a href="#">Services</a>
+                      <div class="sub-menu-1">
+                          <ul>
+                              <li>
+                                  <a href="#">Online Help</a>
+                              </li>
+                              <li>
+                                  <a href="#">Blood Bank</a>
+                              </li>
+                              <li>
+                                  <a href="#">Day Care</a>
+                              </li>
+                              <li>
+                                  <a href="#">Special ICU</a>
+                              </li>
+                              <li>
+                                  <a href="#">Special CCU</a>
+                              </li>
+                              <li>
+                                  <a href="#">Cafeteria</a>
+                              </li>
+                          </ul>
+                      </div>
+                  </li>
+                  <li>
+                      <a href="specialist.html">Surgons</a>
+                  </li>
+                  <li>
+                      <a href="#">Testimonial</a>
+                  </li>
+                  <li>
+                      <a href="ApopointForm.html" class="active">Appointment</a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+      <br>
+     <hr>
+     <br>
+     <div class="__nav">
+          <h1>Name</h1>
+          <h1>Date</h1>
+          <h1>Mobile Number</h1>
+     </div>
+     <div id="taskList">
+     </div>
+     <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Testimonial</title>
+     <link rel="icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="user.php">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<body>
+<div>
+     <center>
+          <h1>Click the button below to download the file!</h1>
+          <button id="button">download</button>
+          <!-- <a id="download" href="#">Click Here!</a> -->
+     </center>
+     
+     <script>
+          $(document).ready(function () {
+
+          $("#button").click(function (e) {
+
+               e.preventDefault();
+
+               window.location.href = "Demo.docx";
+
+          });
+
+          });
+     </script>
+</body>
+</html>
